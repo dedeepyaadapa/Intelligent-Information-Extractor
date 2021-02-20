@@ -6,7 +6,7 @@ import pytesseract
 import numpy as np 
 import cv2 
 
-with open('/home/deepu/Dropbox/I-Extractor/I-Extractor.pkl','rb') as modelFile:      #importing pickle model
+with open('/home/deepu/Dropbox/I-Extractor/I-Extractor_Model.pkl','rb') as modelFile:      #importing pickle model
     model = pickle.load(modelFile)
 
     
